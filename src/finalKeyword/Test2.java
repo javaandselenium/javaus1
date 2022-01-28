@@ -1,6 +1,6 @@
 package finalKeyword;
 
-public class Test2 extends Test1{
+public class Test2 {
 	
 	public void add() {
 		System.out.println("adding fron test2");
