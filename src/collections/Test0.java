@@ -19,8 +19,12 @@ System.out.println(a.size());
 
 System.out.println(a.get(2)+"the value at index 2");
 
-for(int i=0;i<a.size();i++) {
-	System.out.println(a.get(i));
+//for(int i=0;i<a.size();i++) {
+//	System.out.println(a.get(i));
+//}
+
+for(Object b:a) {
+	System.out.println(b);
 }
 
 

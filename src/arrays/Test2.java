@@ -10,8 +10,12 @@ public class Test2 {
     a[3]=40;
     a[4]=50;
     
-    for(int i=4;i>=0;i--) {
-    	System.out.println(a[i]);
+//    for(int i=4;i>=0;i--) {
+//    	System.out.println(a[i]);
+//    }
+    
+    for(int b:a) {
+    	System.out.println(b);
     }
 
 

@@ -10,10 +10,14 @@ public class Test1 {
   s[3]="Mahesh";
  
   
-  for(int i=0;i<=3;i++) {
-	  System.out.println(s[i]);
-  }
+//  for(int i=0;i<=3;i++) {
+//	  System.out.println(s[i]);
+//  }
 
+  
+  for(String b:s) {
+	  System.out.println(b);
+  }
 
 	}
 
