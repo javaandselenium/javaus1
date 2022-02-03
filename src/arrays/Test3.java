@@ -14,6 +14,9 @@ for(int i=0;i<=3;i++) {
 	System.out.println(c[i]);
 }
 
+for(char opt:c) {
+	System.out.println(opt);
+}
 	}
 
 }

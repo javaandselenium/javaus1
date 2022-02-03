@@ -15,6 +15,8 @@ a.add(true);
 a.add('A');
 a.add(788);
 
+
+
 System.out.println(a.size());
 
 System.out.println(a.get(2)+"the value at index 2");

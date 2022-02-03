@@ -14,10 +14,8 @@ arr[4]=50;
 //	System.out.println(arr[i]);
 //}
 
-for(int b:arr) {
-	System.out.println(b);
-}
-
+for(int a:arr)
+System.out.println(a);
 
 	}
 
